@@ -8,7 +8,7 @@
 
 #import "MasterViewController.h"
 
-#import "DetailViewController.h"
+//#import "DetailViewController.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -101,6 +101,8 @@
 }
 */
 
+
+/*
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
@@ -109,5 +111,7 @@
         [[segue destinationViewController] setDetailItem:object];
     }
 }
+ 
+ */
 
 @end
