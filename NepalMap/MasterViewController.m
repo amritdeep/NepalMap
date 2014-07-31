@@ -10,6 +10,9 @@
 
 //#import "DetailViewController.h"
 
+#define kCLIENTID @"NDW5SORKFMPNFXQORCYIKOYBG1LCS5GQETALTM0YI2FKZZW4"
+#define kCLIENTSECRET @"XXYYNVUP1ZXJKZ0OKJ5HCZO4C4NRKQ4AEZLDQ5TC0GOA2XFU"
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
