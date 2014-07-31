@@ -13,6 +13,7 @@
 		1BAD76201989DA1200C33064 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD761B1989DA1200C33064 /* Security.framework */; };
 		1BAD76211989DA1200C33064 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD761C1989DA1200C33064 /* SystemConfiguration.framework */; };
 		1BAD76241989DDB700C33064 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD76081989D85F00C33064 /* libRestKit.a */; };
+		1BADAD59198A0E27009E09CB /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BADAD58198A0E27009E09CB /* Venue.m */; };
 		1BADCCF919893BDF009CD0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADCCF819893BDF009CD0BC /* Foundation.framework */; };
 		1BADCCFB19893BDF009CD0BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADCCFA19893BDF009CD0BC /* CoreGraphics.framework */; };
 		1BADCCFD19893BDF009CD0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADCCFC19893BDF009CD0BC /* UIKit.framework */; };
@@ -81,6 +82,8 @@
 		1BAD761A1989DA1200C33064 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1BAD761B1989DA1200C33064 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1BAD761C1989DA1200C33064 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1BADAD57198A0E27009E09CB /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		1BADAD58198A0E27009E09CB /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
 		1BADCCF519893BDF009CD0BC /* NepalMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepalMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BADCCF819893BDF009CD0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BADCCFA19893BDF009CD0BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,6 +190,8 @@
 				1BADCD0A19893BDF009CD0BC /* Main.storyboard */,
 				1BADCD0D19893BDF009CD0BC /* MasterViewController.h */,
 				1BADCD0E19893BDF009CD0BC /* MasterViewController.m */,
+				1BADAD57198A0E27009E09CB /* Venue.h */,
+				1BADAD58198A0E27009E09CB /* Venue.m */,
 				1BADCD1319893BDF009CD0BC /* Images.xcassets */,
 				1BADCCFF19893BDF009CD0BC /* Supporting Files */,
 			);
@@ -358,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BADCD0919893BDF009CD0BC /* AppDelegate.m in Sources */,
+				1BADAD59198A0E27009E09CB /* Venue.m in Sources */,
 				1BADCD0F19893BDF009CD0BC /* MasterViewController.m in Sources */,
 				1BADCD0519893BDF009CD0BC /* main.m in Sources */,
 			);
