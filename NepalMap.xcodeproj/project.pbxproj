@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BAD761D1989DA1200C33064 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD76181989DA1200C33064 /* CFNetwork.framework */; };
+		1BAD761E1989DA1200C33064 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD76191989DA1200C33064 /* CoreData.framework */; };
+		1BAD761F1989DA1200C33064 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD761A1989DA1200C33064 /* MobileCoreServices.framework */; };
+		1BAD76201989DA1200C33064 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD761B1989DA1200C33064 /* Security.framework */; };
+		1BAD76211989DA1200C33064 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD761C1989DA1200C33064 /* SystemConfiguration.framework */; };
+		1BAD76241989DDB700C33064 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD76081989D85F00C33064 /* libRestKit.a */; };
 		1BADCCF919893BDF009CD0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADCCF819893BDF009CD0BC /* Foundation.framework */; };
 		1BADCCFB19893BDF009CD0BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADCCFA19893BDF009CD0BC /* CoreGraphics.framework */; };
 		1BADCCFD19893BDF009CD0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADCCFC19893BDF009CD0BC /* UIKit.framework */; };
@@ -24,6 +30,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1BAD76071989D85F00C33064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAD76001989D85E00C33064 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		1BAD76091989D85F00C33064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAD76001989D85E00C33064 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		1BAD760B1989D85F00C33064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAD76001989D85E00C33064 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		1BAD760D1989D85F00C33064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAD76001989D85E00C33064 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		1BAD76221989DD7F00C33064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAD76001989D85E00C33064 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
 		1BADCD1E19893BDF009CD0BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BADCCED19893BDF009CD0BC /* Project object */;
@@ -34,6 +75,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BAD76001989D85E00C33064 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		1BAD76181989DA1200C33064 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1BAD76191989DA1200C33064 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BAD761A1989DA1200C33064 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1BAD761B1989DA1200C33064 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BAD761C1989DA1200C33064 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1BADCCF519893BDF009CD0BC /* NepalMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepalMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BADCCF819893BDF009CD0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BADCCFA19893BDF009CD0BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +107,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAD76241989DDB700C33064 /* libRestKit.a in Frameworks */,
+				1BAD761D1989DA1200C33064 /* CFNetwork.framework in Frameworks */,
+				1BAD761E1989DA1200C33064 /* CoreData.framework in Frameworks */,
+				1BAD761F1989DA1200C33064 /* MobileCoreServices.framework in Frameworks */,
+				1BAD76201989DA1200C33064 /* Security.framework in Frameworks */,
+				1BAD76211989DA1200C33064 /* SystemConfiguration.framework in Frameworks */,
 				1BADCCFB19893BDF009CD0BC /* CoreGraphics.framework in Frameworks */,
 				1BADCCFD19893BDF009CD0BC /* UIKit.framework in Frameworks */,
 				1BADCCF919893BDF009CD0BC /* Foundation.framework in Frameworks */,
@@ -79,9 +132,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BAD76011989D85E00C33064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAD76081989D85F00C33064 /* libRestKit.a */,
+				1BAD760A1989D85F00C33064 /* RestKitTests.octest */,
+				1BAD760C1989D85F00C33064 /* RestKit.framework */,
+				1BAD760E1989D85F00C33064 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1BADCCEC19893BDF009CD0BC = {
 			isa = PBXGroup;
 			children = (
+				1BAD76001989D85E00C33064 /* RestKit.xcodeproj */,
 				1BADCCFE19893BDF009CD0BC /* NepalMap */,
 				1BADCD2019893BDF009CD0BC /* NepalMapTests */,
 				1BADCCF719893BDF009CD0BC /* Frameworks */,
@@ -101,6 +166,11 @@
 		1BADCCF719893BDF009CD0BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1BAD76181989DA1200C33064 /* CFNetwork.framework */,
+				1BAD76191989DA1200C33064 /* CoreData.framework */,
+				1BAD761A1989DA1200C33064 /* MobileCoreServices.framework */,
+				1BAD761B1989DA1200C33064 /* Security.framework */,
+				1BAD761C1989DA1200C33064 /* SystemConfiguration.framework */,
 				1BADCCF819893BDF009CD0BC /* Foundation.framework */,
 				1BADCCFA19893BDF009CD0BC /* CoreGraphics.framework */,
 				1BADCCFC19893BDF009CD0BC /* UIKit.framework */,
@@ -166,6 +236,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1BAD76231989DD7F00C33064 /* PBXTargetDependency */,
 			);
 			name = NepalMap;
 			productName = NepalMap;
@@ -215,6 +286,12 @@
 			mainGroup = 1BADCCEC19893BDF009CD0BC;
 			productRefGroup = 1BADCCF619893BDF009CD0BC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BAD76011989D85E00C33064 /* Products */;
+					ProjectRef = 1BAD76001989D85E00C33064 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1BADCCF419893BDF009CD0BC /* NepalMap */,
@@ -222,6 +299,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BAD76081989D85F00C33064 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 1BAD76071989D85F00C33064 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BAD760A1989D85F00C33064 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 1BAD76091989D85F00C33064 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BAD760C1989D85F00C33064 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 1BAD760B1989D85F00C33064 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BAD760E1989D85F00C33064 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 1BAD760D1989D85F00C33064 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1BADCCF319893BDF009CD0BC /* Resources */ = {
@@ -266,6 +374,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1BAD76231989DD7F00C33064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 1BAD76221989DD7F00C33064 /* PBXContainerItemProxy */;
+		};
 		1BADCD1F19893BDF009CD0BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1BADCCF419893BDF009CD0BC /* NepalMap */;
@@ -378,7 +491,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NepalMap/NepalMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+				);
 				INFOPLIST_FILE = "NepalMap/NepalMap-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,7 +510,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NepalMap/NepalMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+				);
 				INFOPLIST_FILE = "NepalMap/NepalMap-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +581,7 @@
 				1BADCD2C19893BDF009CD0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BADCD2D19893BDF009CD0BC /* Build configuration list for PBXNativeTarget "NepalMapTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +590,7 @@
 				1BADCD2F19893BDF009CD0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
