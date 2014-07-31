@@ -16,9 +16,18 @@
 #define kCLIENTID @"NDW5SORKFMPNFXQORCYIKOYBG1LCS5GQETALTM0YI2FKZZW4"
 #define kCLIENTSECRET @"XXYYNVUP1ZXJKZ0OKJ5HCZO4C4NRKQ4AEZLDQ5TC0GOA2XFU"
 
+/*
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
+@end
+ 
+ */
+
+@interface MasterViewController()
+
+@property (nonatomic, strong) NSArray *venues;
+
 @end
 
 @implementation MasterViewController
@@ -110,15 +119,18 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+//    return _objects.count;
+    return  _venues.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+//    NSDate *object = _objects[indexPath.row];
+//    cell.textLabel.text = [object description];
+    Venue *venue = _venues[indexPath.row];
+    cell.textLabel.text = venue.name;
     return cell;
 }
 
